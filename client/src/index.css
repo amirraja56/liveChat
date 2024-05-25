@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.chat-window {
+  background-color: rgb(239, 247, 252);
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 75vh;
+}
+
+.chat-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+h2{
+font-size: 25px;
+font-family: "Alegreya", serif;
+}
+
+.username{
+text-align: center;
+font-family:'Times New Roman', Times, serif;
+}
+
+.messages {
+  margin: 5px;
+  max-height: 63vh;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.sent {
+  text-align: right;
+  font-family: cursive;
+  padding: 5px 8px 5px 8px;
+  border-radius: 0 10px 0 10px;
+  background-color: rgb(220, 233, 253);
+}
+
+.received {
+  text-align: left;
+  font-family: cursive;
+  padding: 5px 8px 5px 8px;
+  border-radius: 0 10px 0 10px;
+  background-color: #dcdcda;
+}
+
+.message .user {
+  font-weight: bold;
+}
+
+.message-form {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.message-form input {
+  width: 80%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.message-form button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+}
